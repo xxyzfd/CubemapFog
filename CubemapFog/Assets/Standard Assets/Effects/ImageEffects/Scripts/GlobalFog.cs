@@ -40,6 +40,7 @@ namespace UnityStandardAssets.ImageEffects
         public float nearMip = 0.0f;
         public float farMip = 400.0f;
 
+        [Tooltip("Custom cubemap fog. By default, the cubemap from the skybox material will be used")]
         public Texture cubeFog = null;
 
         [Header("Shader")]
